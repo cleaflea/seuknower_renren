@@ -10,12 +10,15 @@
     <file path="$PROJECT_DIR$/../seuknower_renren/controller.py" changelist="fd10fb1f-3e04-4e6c-8a74-1fc1881549b6" time="1384759304331" ignored="false" />
     <file path="$USER_HOME$/Documents/github/xiaohuangji-new/renren.py" changelist="fd10fb1f-3e04-4e6c-8a74-1fc1881549b6" time="1384762907536" ignored="false" />
     <file path="$PROJECT_DIR$/../seuknower_webservice/curriculum_service/views.py" changelist="fd10fb1f-3e04-4e6c-8a74-1fc1881549b6" time="1384792591651" ignored="false" />
-    <file path="/views.py" changelist="fd10fb1f-3e04-4e6c-8a74-1fc1881549b6" time="1384775907075" ignored="false" />
-    <file path="$PROJECT_DIR$/../seuknower_webservice/seuknower_webservice/urls.py" changelist="fd10fb1f-3e04-4e6c-8a74-1fc1881549b6" time="1384768293894" ignored="false" />
-    <file path="/urls.py" changelist="fd10fb1f-3e04-4e6c-8a74-1fc1881549b6" time="1384768155773" ignored="false" />
-    <file path="/handlemessage.py" changelist="fd10fb1f-3e04-4e6c-8a74-1fc1881549b6" time="1384793064162" ignored="false" />
+    <file path="/views.py" changelist="fd10fb1f-3e04-4e6c-8a74-1fc1881549b6" time="1384830275487" ignored="false" />
+    <file path="$PROJECT_DIR$/../seuknower_webservice/seuknower_webservice/urls.py" changelist="fd10fb1f-3e04-4e6c-8a74-1fc1881549b6" time="1384829880049" ignored="false" />
+    <file path="/urls.py" changelist="fd10fb1f-3e04-4e6c-8a74-1fc1881549b6" time="1384829876539" ignored="false" />
+    <file path="/handlemessage.py" changelist="fd10fb1f-3e04-4e6c-8a74-1fc1881549b6" time="1384830609537" ignored="false" />
     <file path="/Dummy.txt" changelist="fd10fb1f-3e04-4e6c-8a74-1fc1881549b6" time="1384782155257" ignored="false" />
     <file path="/renrenapi.py" changelist="fd10fb1f-3e04-4e6c-8a74-1fc1881549b6" time="1384791541718" ignored="false" />
+    <file path="$PROJECT_DIR$/../seuknower_webservice/qanda_service/views.py" changelist="fd10fb1f-3e04-4e6c-8a74-1fc1881549b6" time="1384815544623" ignored="false" />
+    <file path="$PROJECT_DIR$/../seuknower_webservice/event_service/views.py" changelist="fd10fb1f-3e04-4e6c-8a74-1fc1881549b6" time="1384827854741" ignored="false" />
+    <file path="$PROJECT_DIR$/../seuknower_webservice/market_service/views.py" changelist="fd10fb1f-3e04-4e6c-8a74-1fc1881549b6" time="1384830276744" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,10 +49,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="handlemessage.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="handlemessage.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/handlemessage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="39" selection-start="879" selection-end="879" vertical-scroll-proportion="0.0">
+            <state line="131" column="34" selection-start="3706" selection-end="3706" vertical-scroll-proportion="0.55013925">
               <folding>
                 <element signature="e#38#77#0" expanded="true" />
               </folding>
@@ -66,10 +69,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="accounts.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="accounts.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/accounts.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="30" selection-start="76" selection-end="76" vertical-scroll-proportion="0.10396717">
+            <state line="7" column="0" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -81,6 +84,7 @@
             <state line="107" column="26" selection-start="3090" selection-end="3090" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#21#30#0" expanded="true" />
+                <marker date="1384791375136" expanded="true" signature="277:1016" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -92,6 +96,7 @@
             <state line="75" column="13" selection-start="2143" selection-end="2143" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#21#36#0" expanded="true" />
+                <marker date="1384791541364" expanded="true" signature="3396:3908" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -130,8 +135,8 @@
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/controller.py" />
         <option value="$PROJECT_DIR$/renrenapi.py" />
-        <option value="$PROJECT_DIR$/handlemessage.py" />
         <option value="$PROJECT_DIR$/accounts.py" />
+        <option value="$PROJECT_DIR$/handlemessage.py" />
       </list>
     </option>
   </component>
@@ -394,6 +399,7 @@
         <state line="75" column="13" selection-start="2143" selection-end="2143" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#21#36#0" expanded="true" />
+            <marker date="1384791541364" expanded="true" signature="3396:3908" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -412,23 +418,24 @@
         <state line="107" column="26" selection-start="3090" selection-end="3090" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#21#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handlemessage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="39" selection-start="879" selection-end="879" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#38#77#0" expanded="true" />
+            <marker date="1384791375136" expanded="true" signature="277:1016" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/accounts.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="30" selection-start="76" selection-end="76" vertical-scroll-proportion="0.10396717">
+        <state line="7" column="0" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handlemessage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="131" column="34" selection-start="3706" selection-end="3706" vertical-scroll-proportion="0.55013925">
+          <folding>
+            <element signature="e#38#77#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

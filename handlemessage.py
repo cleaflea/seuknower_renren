@@ -8,6 +8,9 @@ import json
 import urllib2, cookielib, urllib
 import time
 import datetime
+
+import MySQLdb
+
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -15,8 +18,24 @@ sys.setdefaultencoding('utf-8')
 def handleEvent(event):
     return 'event' + event
 
+def handleEventLatest():
+    # pass
+    url = "http://127.0.0.1:8000/seuknower_webservice/event/latest"
+    uFile = urllib.urlopen(url)
+    eventresult = json.loads(uFile.read())
+
+    returnresult = ''.join(eventresult)
+    print returnresult
+    return returnresult
+
 def handleQuestion(question):
-    return 'question' + question
+    url = "http://127.0.0.1:8000/seuknower_webservice/qanda/%s" % question.encode('utf-8')
+    uFile = urllib.urlopen(url)
+    questionlist = json.loads(uFile.read())
+
+    returnresult = ''.join(questionlist)
+    print returnresult
+    return returnresult
 
 def handleCurriculum(curriculum):
     # return 'curriculum' + curriculum
@@ -47,7 +66,7 @@ def handleCurriculum(curriculum):
             renrenresultlist = []
 
             if len(morning) == 0 and len(afternoon) == 0 and len(evening) == 0:
-                renrenresult = '明天没课 么么哒'
+                renrenresult = '今天没课 么么哒'
             else:
                 if len(morning) == 0:
                     renrenresultlist.append('早上没课 ')
@@ -90,7 +109,13 @@ def handleCurriculum(curriculum):
     return renrenresult
 
 def handleCommodity(commodity):
-    return 'commodity' + commodity
+    url = "http://127.0.0.1:8000/seuknower_webservice/market/%s" % commodity
+    uFile = urllib.urlopen(url)
+    eventresult = json.loads(uFile.read())
+
+    returnresult = ''.join(eventresult)
+    print returnresult
+    return returnresult
 
 def handle(message):
     # print message
@@ -100,7 +125,8 @@ def handle(message):
 
         if category == u'活动':
             print 'event'
-            message = handleEvent(content)
+            # message = handleEvent(content)
+            message = handleEventLatest()
         if category == u'提问':
             print 'question'
             message = handleQuestion(content)
