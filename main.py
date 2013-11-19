@@ -11,6 +11,7 @@ redis_conn = Redis()
 q = Queue(connection=redis_conn)
 
 def handle(bot, notification):
+
     print time.strftime('%Y-%m-%d %I:%M:%S', time.localtime(time.time())), 'got notification'
     if int(notification['type']) in NTYPES.values():
         # 进入消息队列
@@ -27,7 +28,10 @@ def process(bot, just_clear=False):
     for notification in notifications:
 
         print notification
-        notify_id = notification['notify_id']
+
+        # notify_id = notification['notify_id']
+        notify_id = notification[u'notify_id']
+        print notify_id
 
         bot.removeNotification(notify_id)
 

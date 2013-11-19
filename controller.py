@@ -4,6 +4,7 @@ import re
 import sys
 import redis
 from renrenapi import RenRen
+# from renren import RenRen
 from accounts import accounts
 from ntype import NTYPES
 from handlemessage import handle

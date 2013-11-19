@@ -4,8 +4,8 @@
     <list default="true" id="fd10fb1f-3e04-4e6c-8a74-1fc1881549b6" name="Default" comment="" />
     <ignored path="seuknower_renren_new.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/main.py" changelist="fd10fb1f-3e04-4e6c-8a74-1fc1881549b6" time="1384762383373" ignored="false" />
-    <file path="/controller.py" changelist="fd10fb1f-3e04-4e6c-8a74-1fc1881549b6" time="1384791375003" ignored="false" />
+    <file path="/main.py" changelist="fd10fb1f-3e04-4e6c-8a74-1fc1881549b6" time="1384835990914" ignored="false" />
+    <file path="/controller.py" changelist="fd10fb1f-3e04-4e6c-8a74-1fc1881549b6" time="1384834612310" ignored="false" />
     <file path="$PROJECT_DIR$/../seuknower_renren/main.py" changelist="fd10fb1f-3e04-4e6c-8a74-1fc1881549b6" time="1384759089652" ignored="false" />
     <file path="$PROJECT_DIR$/../seuknower_renren/controller.py" changelist="fd10fb1f-3e04-4e6c-8a74-1fc1881549b6" time="1384759304331" ignored="false" />
     <file path="$USER_HOME$/Documents/github/xiaohuangji-new/renren.py" changelist="fd10fb1f-3e04-4e6c-8a74-1fc1881549b6" time="1384762907536" ignored="false" />
@@ -13,12 +13,13 @@
     <file path="/views.py" changelist="fd10fb1f-3e04-4e6c-8a74-1fc1881549b6" time="1384830275487" ignored="false" />
     <file path="$PROJECT_DIR$/../seuknower_webservice/seuknower_webservice/urls.py" changelist="fd10fb1f-3e04-4e6c-8a74-1fc1881549b6" time="1384829880049" ignored="false" />
     <file path="/urls.py" changelist="fd10fb1f-3e04-4e6c-8a74-1fc1881549b6" time="1384829876539" ignored="false" />
-    <file path="/handlemessage.py" changelist="fd10fb1f-3e04-4e6c-8a74-1fc1881549b6" time="1384830609537" ignored="false" />
+    <file path="/handlemessage.py" changelist="fd10fb1f-3e04-4e6c-8a74-1fc1881549b6" time="1384872270018" ignored="false" />
     <file path="/Dummy.txt" changelist="fd10fb1f-3e04-4e6c-8a74-1fc1881549b6" time="1384782155257" ignored="false" />
-    <file path="/renrenapi.py" changelist="fd10fb1f-3e04-4e6c-8a74-1fc1881549b6" time="1384791541718" ignored="false" />
+    <file path="/renrenapi.py" changelist="fd10fb1f-3e04-4e6c-8a74-1fc1881549b6" time="1384832054167" ignored="false" />
     <file path="$PROJECT_DIR$/../seuknower_webservice/qanda_service/views.py" changelist="fd10fb1f-3e04-4e6c-8a74-1fc1881549b6" time="1384815544623" ignored="false" />
     <file path="$PROJECT_DIR$/../seuknower_webservice/event_service/views.py" changelist="fd10fb1f-3e04-4e6c-8a74-1fc1881549b6" time="1384827854741" ignored="false" />
     <file path="$PROJECT_DIR$/../seuknower_webservice/market_service/views.py" changelist="fd10fb1f-3e04-4e6c-8a74-1fc1881549b6" time="1384830276744" ignored="false" />
+    <file path="/accounts.py" changelist="fd10fb1f-3e04-4e6c-8a74-1fc1881549b6" time="1384833823312" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,10 +39,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="21" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0">
+            <state line="30" column="0" selection-start="730" selection-end="730" vertical-scroll-proportion="0.32112676">
               <folding>
                 <element signature="e#21#45#0" expanded="true" />
               </folding>
@@ -49,13 +50,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="handlemessage.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="renren.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/renren.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="83" column="0" selection-start="2665" selection-end="2665" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="handlemessage.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/handlemessage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="131" column="34" selection-start="3706" selection-end="3706" vertical-scroll-proportion="0.55013925">
-              <folding>
-                <element signature="e#38#77#0" expanded="true" />
-              </folding>
+            <state line="121" column="23" selection-start="3401" selection-end="3401" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -72,7 +80,7 @@
       <file leaf-file-name="accounts.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/accounts.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0">
+            <state line="7" column="1" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -81,10 +89,9 @@
       <file leaf-file-name="controller.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="107" column="26" selection-start="3090" selection-end="3090" vertical-scroll-proportion="0.0">
+            <state line="19" column="9" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#21#30#0" expanded="true" />
-                <marker date="1384791375136" expanded="true" signature="277:1016" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -93,11 +100,8 @@
       <file leaf-file-name="renrenapi.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/renrenapi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="13" selection-start="2143" selection-end="2143" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#21#36#0" expanded="true" />
-                <marker date="1384791541364" expanded="true" signature="3396:3908" placeholder="..." />
-              </folding>
+            <state line="129" column="8" selection-start="3960" selection-end="3960" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -105,7 +109,7 @@
       <file leaf-file-name="encrypt.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/encrypt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
+            <state line="10" column="22" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -114,7 +118,7 @@
       <file leaf-file-name="ntype.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ntype.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="6" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0">
+            <state line="4" column="10" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -130,12 +134,12 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/ntype.py" />
         <option value="$PROJECT_DIR$/encrypt.py" />
-        <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/controller.py" />
         <option value="$PROJECT_DIR$/renrenapi.py" />
+        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/accounts.py" />
+        <option value="$PROJECT_DIR$/controller.py" />
+        <option value="$PROJECT_DIR$/ntype.py" />
         <option value="$PROJECT_DIR$/handlemessage.py" />
       </list>
     </option>
@@ -197,7 +201,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/github/xiaohuangji" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../seuknower_webservice" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -283,7 +287,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23888092" sideWeight="0.67635405" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24605452" sideWeight="0.67635405" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3989432" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25520483" sideWeight="0.4266843" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -359,18 +363,37 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.PyCharm20/system/python_stubs/-1247972723/cups.py">
+    <entry file="file://$PROJECT_DIR$/controller.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="889" column="8" selection-start="24588" selection-end="24588" vertical-scroll-proportion="0.33333334">
+        <state line="36" column="12" selection-start="969" selection-end="969" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#21#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renrenapi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="146" column="0" selection-start="4609" selection-end="4609" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ntype.py">
+    <entry file="file://$PROJECT_DIR$/encrypt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0">
+        <state line="3" column="0" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/requests/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="4" selection-start="1927" selection-end="1927" vertical-scroll-proportion="0.33286908" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm20/system/python_stubs/-1247972723/cups.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="889" column="8" selection-start="24588" selection-end="24588" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rqworker.py">
@@ -380,61 +403,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/requests/api.py">
+    <entry file="file://$USER_HOME$/.PyCharm20/system/python_stubs/-1247972723/__builtin__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="4" selection-start="1927" selection-end="1927" vertical-scroll-proportion="0.33286908">
+        <state line="2474" column="8" selection-start="83205" selection-end="83205" vertical-scroll-proportion="0.3328551">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/encrypt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
+        <state line="10" column="22" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/redis/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="645" column="8" selection-start="22180" selection-end="22180" vertical-scroll-proportion="0.33239436" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/renrenapi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="13" selection-start="2143" selection-end="2143" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#21#36#0" expanded="true" />
-            <marker date="1384791541364" expanded="true" signature="3396:3908" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="21" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#21#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="26" selection-start="3090" selection-end="3090" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#21#30#0" expanded="true" />
-            <marker date="1384791375136" expanded="true" signature="277:1016" placeholder="..." />
-          </folding>
+        <state line="129" column="8" selection-start="3960" selection-end="3960" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/accounts.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0">
+        <state line="7" column="1" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ntype.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="10" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/handlemessage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="131" column="34" selection-start="3706" selection-end="3706" vertical-scroll-proportion="0.55013925">
+        <state line="121" column="23" selection-start="3401" selection-end="3401" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="0" selection-start="2665" selection-end="2665" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="9" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#38#77#0" expanded="true" />
+            <element signature="e#21#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="730" selection-end="730" vertical-scroll-proportion="0.32112676">
+          <folding>
+            <element signature="e#21#45#0" expanded="true" />
           </folding>
         </state>
       </provider>

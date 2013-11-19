@@ -109,7 +109,7 @@ def handleCurriculum(curriculum):
     return renrenresult
 
 def handleCommodity(commodity):
-    url = "http://127.0.0.1:8000/seuknower_webservice/market/%s" % commodity
+    url = "http://127.0.0.1:8000/seuknower_webservice/market/%s" % commodity.encode('utf-8')
     uFile = urllib.urlopen(url)
     eventresult = json.loads(uFile.read())
 
@@ -136,6 +136,8 @@ def handle(message):
         if category == u'二手':
             print 'commodity'
             message = handleCommodity(content)
+        else:
+            message = u'不要调戏我'
 
     else:
         message = u'格式有误 1提问@问题的内容 2查课@一卡通号 3二手@加想买的东西 活动@活动的标题'
