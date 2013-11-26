@@ -24,8 +24,11 @@ def handleEventLatest():
     uFile = urllib.urlopen(url)
     eventresult = json.loads(uFile.read())
 
-    returnresult = ''.join(eventresult)
-    print returnresult
+    if len(eventresult) == 0:
+        returnresult = u'暂时没有最新的活动'
+    else:
+        returnresult = ''.join(eventresult)
+        print returnresult
     return returnresult
 
 def handleQuestion(question):
@@ -33,8 +36,11 @@ def handleQuestion(question):
     uFile = urllib.urlopen(url)
     questionlist = json.loads(uFile.read())
 
-    returnresult = ''.join(questionlist)
-    print returnresult
+    if len(questionlist) == 0:
+        returnresult = u'没有找到相关的问题，想知道答案去这里提问吧 http://www.seuknower.com/question'
+    else:
+        returnresult = ''.join(questionlist)
+        print returnresult
     return returnresult
 
 def handleCurriculum(curriculum):
@@ -113,8 +119,12 @@ def handleCommodity(commodity):
     uFile = urllib.urlopen(url)
     eventresult = json.loads(uFile.read())
 
-    returnresult = ''.join(eventresult)
-    print returnresult
+    if len(eventresult) == 0:
+        returnresult = u'没有找到相关商品，去这里看看有没有什么需要的吧 http://www.seuknower.com/market'
+    else:
+        returnresult = ''.join(eventresult)
+        print returnresult
+
     return returnresult
 
 def handle(message):
@@ -127,13 +137,13 @@ def handle(message):
             print 'event'
             # message = handleEvent(content)
             message = handleEventLatest()
-        if category == u'提问':
+        elif category == u'提问':
             print 'question'
             message = handleQuestion(content)
-        if category == u'查课':
+        elif category == u'查课':
             print 'curriculum'
             message = handleCurriculum(content)
-        if category == u'二手':
+        elif category == u'二手':
             print 'commodity'
             message = handleCommodity(content)
         else:
